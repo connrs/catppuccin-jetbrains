@@ -10,7 +10,7 @@ secondary_accent: "yellow"
 ---
 
 {%- macro file_color(color) -%}
-  {{ color | mix(color=base, amount=0.25) | get(key='hex') }}
+  {{ color | mix(color=base, amount=0.15) | get(key='hex') }}
 {%- endmacro file_color -%}
 
 {%- macro banner_background(color) -%}
