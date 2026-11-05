@@ -14,6 +14,35 @@
 
 ### Security
 
+## 3.6.1 - 2026-07-18
+
+### Added
+
+- Support 2026.2
+
+### Changed
+
+- (Editor): Selected indent guides on matching braces are more visible by default.
+- (Editor): Matching tags (i.e. `()`, `<>`) have their background highlighted.
+
+### Fixed
+
+- (Editor): Overrides to "Matched Brace Guide Color" weren't being respected, now they are.
+
+## 3.6.0 - 2026-04-06
+
+### Added
+
+- (Editor/UI): Add "Islands" variants for each flavour.
+  - "Islands Catppuccin Latte"
+  - "Islands Catppuccin Frappé"
+  - "Islands Catppuccin Macchiato"
+  - "Islands Catppuccin Mocha"
+
+### Changed
+
+- (Editor/UI): Improve legibility of background colors for file scopes in editor tabs and file explorer.
+
 ## 3.5.3 - 2026-02-05
 
 ### Added
